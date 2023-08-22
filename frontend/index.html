@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI Builder</title>
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="images/brand/favicon.svg"
+      type="image/x-icon"
+    />
+    <!-- ICON -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLES -->
+    <!-- boostrap css -->
+    <link rel="stylesheet" href="libraries/boostrap/css/bootstrap.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- ===================================== 
+      NAVBAR 
+    ===================================== -->
+    <nav class="navbar navbar-expand-lg py-3 sticky-top">
+      <div class="container navbar__container">
+        <a href="index.html" class="navbar-brand">
+          <img src="images/brand/logo.svg" alt="Logo" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a href="index.html" aria-current="page" class="nav-link active"
+              >Beranda</a
+            >
+            <a href="tutorial.html" class="nav-link">Tutorial</a>
+            <a href="blog.html" class="nav-link">Blog</a>
+            <a href="contact.html" class="nav-link">Kontak</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ===================================== 
+      HEADER 
+    ===================================== -->
+    <header class="hero">
+      <div class="container hero__container">
+        <div class="row hero__content">
+          <div class="col-md-6">
+            <div class="hero__text">
+              <h1>Explore Today, Experience Tomorrow</h1>
+              <p class="py-3">
+                Jangan pedulikan perkataan orang lain tentang kekurangan menjadi
+                website developer.
+              </p>
+            </div>
+            <a href="#" class="btn btn-primary">Get Started</a>
+          </div>
+          <div class="col-md-6">
+            <div class="hero__image">
+              <img src="images/hero-img.svg" alt="hero" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===================================== 
+      CATEGORIES 
+    ===================================== -->
+    <section class="categories">
+      <div class="section__header">
+        <h2>Materi belajar yang kami sediakan di website ini</h2>
+        <p>List tutorial pemrograman website bahasa Indonesia dari dasar</p>
+      </div>
+      <div class="container categories__container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <article class="category">
+              <span class="category__icon"><i class="ri-html5-line"></i></span>
+              <h5>HTML 5</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et in
+                repellat amet.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="category">
+              <span class="category__icon"><i class="ri-css3-line"></i></span>
+              <h5>CSS 3</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et in
+                repellat amet.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="category">
+              <span class="category__icon"
+                ><i class="ri-javascript-line"></i
+              ></span>
+              <h5>Javacript</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et in
+                repellat amet.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="category">
+              <span class="category__icon"
+                ><i class="ri-code-s-slash-line"></i
+              ></span>
+              <h5>PHP</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et in
+                repellat amet.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="category">
+              <span class="category__icon"><i class="ri-braces-line"></i></span>
+              <h5>Laravel</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et in
+                repellat amet.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="category">
+              <span class="category__icon"
+                ><i class="ri-database-2-line"></i
+              ></span>
+              <h5>mySQL</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et in
+                repellat amet.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================== 
+      INFORMATION 
+    ===================================== -->
+    <section class="information">
+      <div class="container information__container">
+        <div class="row information__content">
+          <div class="col-md-6">
+            <div class="information__text">
+              <h5>Cara belajar yang sangat mudah dan efektif</h5>
+              <p>
+                Kamu hanya perlu mengikuti langkah-langkah tutorial belajar yang
+                sudah kami rangkumkan secara masif dan terstruktur serta sangat
+                mudah untuk dipahami oleh pemula
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="information__image">
+              <img src="images/image-1.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row information__content">
+          <div class="col-md-6">
+            <div class="information__image">
+              <img src="images/image-2.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="information__text">
+              <h5>Kami sudah meyediakan semua materi dasar</h5>
+              <p>
+                Semua materi yang kami sediakan sudah cukup untuk anda gunakan
+                sebagau materi belajar dasar hingga dapat membuat suatu aplikasi
+                berbasis web apps dan kompleks
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================== 
+      ARTICLE 
+    ===================================== -->
+    <section class="articles">
+      <div class="section__header">
+        <h2>Artikel terbaru kami</h2>
+        <p>
+          List artikel website tentang tips dan trik seputar website programming
+        </p>
+      </div>
+      <div class="container article__container">
+        <div class="row article__content g-4">
+          <div class="col-md-4">
+            <article class="article">
+              <div class="article__image">
+                <img src="images/course1.jpg" alt="" />
+              </div>
+
+              <div class="article__text">
+                <a href="#">
+                  <h4>Responsive Social Media Website UI Design</h4></a
+                >
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut
+                  natus praesentium fugit aliquam.
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="article">
+              <div class="article__image">
+                <img src="images/course2.jpg" alt="" />
+              </div>
+
+              <div class="article__text">
+                <a href="#"> <h4>Responsive Smarthome Website Design</h4></a>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut
+                  natus praesentium fugit aliquam.
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="article">
+              <div class="article__image">
+                <img src="images/course3.jpg" alt="" />
+              </div>
+
+              <div class="article__text">
+                <a href="#"> <h4>Responsive Admin Dashboard UI Design</h4></a>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut
+                  natus praesentium fugit aliquam.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================== 
+      FOOTER 
+    ===================================== -->
+    <footer class="py-3">
+      <div class="container footer__container mt-5 pt-4">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <a href="#" class="footer__brand">
+              <img
+                src="images/brand/logo.svg"
+                alt="logo"
+                class="d-inline-block align-top mb-4"
+              />
+            </a>
+            <p class="mt-2 font-weight-light text-gray-500">
+              <strong>Muslim Koding</strong> merupakan platform untuk belajar
+              website programming dari dasar hingga expert
+            </p>
+            <p>oleh <a href="#">Darul Arqam Albasri</a></p>
+          </div>
+
+          <div class="col-md-7 offset-lg-1 permalinks">
+            <div class="row">
+              <div class="col-md-7">
+                <h5>Permalinks</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Beranda</a></li>
+                  <li><a href="#">Tutorial</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </div>
+
+              <div class="col-md-5">
+                <h5>Lainnya</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Kritik & Saran</a></li>
+                  <li><a href="#">Tentang</a></li>
+                  <li><a href="#">Kontak</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-md-7">
+                <h5>Kantor</h5>
+                <ul class="list-unstyled text-email">
+                  <li class="line-height-2 font-weight-light">
+                    hi@muslimkoding.com <br />
+                    freenovation Dago <br />Semarang, Indonesia
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-md-5">
+                <h5>Media</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Instagram</a></li>
+                  <li><a href="#">Telegram</a></li>
+                  <li><a href="#">Youtube</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center mt-5 mb-4">
+          <div class="col-auto text-gray-500 font-weight copyright">
+            &copy; 2023 muslimkoding - Hak Cipta Dilindungi - Semarang
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <!-- boostrap js -->
+    <script src="libraries/boostrap/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="script/main.js"></script>
+  </body>
+</html>

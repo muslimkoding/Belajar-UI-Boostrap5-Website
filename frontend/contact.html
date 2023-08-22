@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI Builder</title>
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="images/brand/favicon.svg"
+      type="image/x-icon"
+    />
+    <!-- ICON -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLES -->
+    <!-- boostrap css -->
+    <link rel="stylesheet" href="libraries/boostrap/css/bootstrap.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- ===================================== 
+      NAVBAR 
+    ===================================== -->
+    <nav class="navbar navbar-expand-lg py-3 sticky-top">
+      <div class="container navbar__container">
+        <a href="index.html" class="navbar-brand">
+          <img src="images/brand/logo.svg" alt="Logo" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a href="index.html" aria-current="page" class="nav-link"
+              >Beranda</a
+            >
+            <a href="tutorial.html" class="nav-link">Tutorial</a>
+            <a href="blog.html" class="nav-link">Blog</a>
+            <a href="contact.html" class="nav-link active">Kontak</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ===================================== 
+      CONTACT 
+    ===================================== -->
+
+    <section class="contact">
+      <div class="container contact__container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <h2 class="mb-4">Kritik & Saran</h2>
+            <div class="row mb-3">
+              <div class="col">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="First name"
+                  aria-label="First name"
+                />
+              </div>
+              <div class="col">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Last name"
+                  aria-label="Last name"
+                />
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="email@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================== 
+      FOOTER 
+    ===================================== -->
+    <footer class="py-3">
+      <div class="container footer__container mt-5 pt-4">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <a href="#" class="footer__brand">
+              <img
+                src="images/brand/logo.svg"
+                alt="logo"
+                class="d-inline-block align-top mb-4"
+              />
+            </a>
+            <p class="mt-2 font-weight-light text-gray-500">
+              <strong>Muslim Koding</strong> merupakan platform untuk belajar
+              website programming dari dasar hingga expert
+            </p>
+            <p>oleh <a href="#">Darul Arqam Albasri</a></p>
+          </div>
+
+          <div class="col-md-7 offset-lg-1 permalinks">
+            <div class="row">
+              <div class="col-md-7">
+                <h5>Permalinks</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Beranda</a></li>
+                  <li><a href="#">Tutorial</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </div>
+
+              <div class="col-md-5">
+                <h5>Lainnya</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Kritik & Saran</a></li>
+                  <li><a href="#">Tentang</a></li>
+                  <li><a href="#">Kontak</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-md-7">
+                <h5>Kantor</h5>
+                <ul class="list-unstyled text-email">
+                  <li class="line-height-2 font-weight-light">
+                    hi@muslimkoding.com <br />
+                    freenovation Dago <br />Semarang, Indonesia
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-md-5">
+                <h5>Media</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Instagram</a></li>
+                  <li><a href="#">Telegram</a></li>
+                  <li><a href="#">Youtube</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center mt-5 mb-4">
+          <div class="col-auto text-gray-500 font-weight copyright">
+            &copy; 2023 muslimkoding - Hak Cipta Dilindungi - Semarang
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <!-- boostrap js -->
+    <script src="libraries/boostrap/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="script/main.js"></script>
+  </body>
+</html>

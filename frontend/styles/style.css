@@ -1,0 +1,301 @@
+/* ===================================
+VARIABLE
+=================================== */
+/* ===================================
+CSS RESET
+=================================== */
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ===================================
+GENERAL
+=================================== */
+body {
+  background: #f8f9fa;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+section .section__header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+section .section__header p {
+  padding: 0.5rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+img {
+  width: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.btn {
+  border-radius: 50rem;
+}
+
+.btn-primary,
+.btn-outline-secondary,
+.btn-light {
+  padding: 0.7rem 1.5rem;
+  border: 1px solid transparent;
+  transition: all 300ms ease;
+}
+
+.btn-primary {
+  background: #0057c8;
+}
+
+/* ===================================
+NAVBAR
+=================================== */
+.nav-link {
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+.window-scroll {
+  background: hsla(0, 0%, 100%, 0.7);
+  backdrop-filter: blur(32px);
+  -webkit-backdrop-filter: blur(32px);
+  transition: all 300ms ease;
+}
+
+/* ===================================
+HEADER
+=================================== */
+header {
+  height: 90vh;
+}
+
+.hero__container {
+  display: grid;
+  align-items: center;
+  height: 100%;
+}
+
+.hero__content {
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.hero__text {
+  max-width: 35rem;
+}
+
+/* ===================================
+CATEGORIES
+=================================== */
+.category {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 2rem;
+  transition: all 300ms ease;
+}
+
+.category:hover {
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.category__icon {
+  background: #0057c8;
+  color: #fff;
+  padding: 0.7rem;
+  font-size: 2rem;
+  border-radius: 0.9rem;
+}
+
+.category h5 {
+  margin: 1.5rem 0 1rem;
+  font-weight: 700;
+}
+
+.category p {
+  font-size: 0.85rem;
+  color: #788190;
+}
+
+/* ===================================
+INFORMATION
+=================================== */
+.information__content {
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.information h5 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #141414;
+}
+
+.information p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 28px;
+  padding-top: 20px;
+}
+
+/* ===================================
+ARTICLE
+=================================== */
+.article {
+  background: #fff;
+  border-radius: 2rem;
+  transition: all 300ms ease;
+}
+
+.article:hover {
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.article__image img {
+  border-radius: 2rem 2rem 0 0;
+}
+
+.article__text {
+  padding: 1.5rem;
+}
+
+.article__text p {
+  margin: 1rem 0;
+}
+
+.article h4 {
+  color: #141414;
+  font-weight: 700;
+}
+
+.article h4:hover {
+  text-decoration: underline;
+}
+
+/* ===================================
+FOOTER
+=================================== */
+footer img {
+  width: 8rem;
+}
+
+footer a {
+  color: #242424;
+  font-size: 0.9rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .copyright {
+  font-size: 0.8rem;
+}
+
+/* ===================================
+MEDIA QUERIES
+=================================== */
+@media screen and (max-width: 992px) {
+  header {
+    height: 60vh;
+  }
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+  .hero p {
+    font-size: 0.8rem;
+  }
+  .hero__text {
+    max-width: 20rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero__content {
+    text-align: center;
+  }
+  .hero__text {
+    max-width: 25rem;
+    margin: 0 auto;
+  }
+  .hero__image {
+    margin-top: 4rem;
+  }
+  .categories {
+    padding-top: 12rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  section {
+    padding: 1rem 0;
+  }
+  header {
+    height: 70vh;
+    margin-bottom: 12rem;
+    padding: 6rem 0;
+  }
+  .hero__content {
+    text-align: center;
+  }
+  .hero__text {
+    max-width: 25rem;
+    margin: 0 auto;
+  }
+  .hero__image {
+    margin-top: 4rem;
+  }
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .categories {
+    padding-top: 12rem;
+  }
+  .information__content {
+    text-align: center;
+  }
+  .information h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .information p {
+    font-size: 0.9rem;
+    line-height: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
